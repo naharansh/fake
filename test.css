@@ -1,0 +1,153 @@
+*
+{
+    margin:0px;
+    padding: 0px;
+    box-sizing: border-box;
+    border: none;
+    outline: none;
+}
+body
+{
+    display: flex;
+    /* width: 100%; */
+    min-height: 100vh;
+    align-items: center;
+    justify-content: center;
+    background-color: #636e72;
+}
+.container
+{
+    width: 400px;
+    height: min-content;
+    padding:29px;
+    background-color:#81ecec ;
+    border-radius: 10px;
+}
+
+.secrch
+{
+    width: 100%;
+    height: min-content;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.secrch input
+{
+    width: 80%;
+    height: min-content;
+    text-transform: capitalize;
+    background-color: #e6f5fb;
+    font-size: 1rem;
+    padding: 10px 20px;
+    border-radius: 10px;
+    color: black;
+}
+.secrch input::placeholder
+{
+    color: black;
+}
+
+.secrch button
+{
+    width: 46px;
+    height: 46px;
+    /* padding: 15px; */
+    border-radius: 50%;
+}
+.secrch button:hover
+{
+    color: white;
+    background-color: black;
+}
+.weather img
+{
+    width: 60%;
+    /* margin: 30px auto; */
+
+}
+.weather
+{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-block: 20px;
+}
+.details .temperature
+{
+    font-size: 1.5rem;
+    font-weight: 800;
+    position: relative;
+    text-align: center;
+}
+.details .temperature sup
+{
+    font-size: 1.2rem;
+    font-weight: 800;
+    position: relative;
+}
+.details .description
+{
+    font-size: 1.6rem;
+    margin-block: 10px;
+    font-weight: 300;
+    font-style: italic;
+    text-transform: capitalize;
+}
+.data
+{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items:center;
+    margin-top: 40px;
+}
+.humidity,.windspeed
+{
+    display: flex;
+    align-items: center;
+}
+
+.humidity .text
+{
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-style: italic;
+}
+.humidity .text span
+{
+    /* text-align: center; */
+    margin-left: 20px;
+}
+.windspeed .text
+{
+    font-size: 1.3rem;
+    font-weight: 500;
+    font-style: italic;
+}
+.windspeed .text span
+{
+    margin-left: 20px;
+}
+.data i
+{
+    font-size: 2rem;
+    margin-left:3px;
+}
+.test
+{
+    background: transparent;
+}
+.error
+{
+    color:red;
+    font-size: 1.5rem;
+    
+    
+}
+.errorr
+{
+    display: none;
+}

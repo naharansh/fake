@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="test.css">
+    <script src="https://kit.fontawesome.com/38addad74d.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@mdi/font@7.4.47/css/materialdesignicons.min.css">
+    <title>Document</title>
+    
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <div class="secrch">
+                <input type="search" name="" id="inputtag" class="weathersearch" placeholder="Enter the City">
+                <button class="fa-solid fa-magnifying-glass"  id="eve"></button>
+            </div>
+        </div>
+        <div class="errorr">
+            <h3>Sorry Location Not found?</h3>
+        </div>
+        <div class="weather">
+            <img src="clear.png" alt="Weatherimage" srcset="" id="weather-img" class="test">
+            <div class="details">
+                <p class="temperature" id="temp">0<sup>°C</sup></p>
+                <p class="description" id="desc">Light Rain</p>
+            </div>
+            <div class="data">
+                <div class="humidity">
+                    <i class="mdi mdi-water"></i>
+                    <div class="text">
+                        <span class="humid" >45%</span>
+                        <p>Humidity</p>
+                    </div>
+                </div>
+                <div class="windspeed">
+                  <i  class="mdi mdi-windsock"></i>
+                    <div class="text">
+                        <span class="wind">45Km/H</span>
+                        <p>Wind-speed</p>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+    </div>
+</body>
+<script src="weatheer.js"></script>
+</html>
